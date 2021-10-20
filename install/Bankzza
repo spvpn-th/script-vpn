@@ -1,0 +1,9 @@
+#!/bin/bash
+rm -f install.sh
+cd
+Bankzza=$1
+Bankzza=$2
+
+wget -q -O install.sh https://raw.githubusercontent.com/surinvpn/baz-vpn/master/install.sh
+bash install.sh $Bankzza $Bankzza
+exit 0
